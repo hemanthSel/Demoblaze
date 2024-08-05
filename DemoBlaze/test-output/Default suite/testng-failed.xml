@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.regresion.DemoBlaze.SetUp">
+      <class name="com.endtoend.DemoBlaze.LoginToAddtoCart">
         <methods>
           <include name="Initialization"/>
-          <include name="Testmethod1"/>
           <include name="CleanUp"/>
+          <include name="Testmethod1"/>
         </methods>
-      </class> <!-- com.regresion.DemoBlaze.SetUp -->
+      </class> <!-- com.endtoend.DemoBlaze.LoginToAddtoCart -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
